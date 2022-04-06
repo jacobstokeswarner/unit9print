@@ -1,0 +1,29 @@
+
+img {
+  display:none;
+}
+
+
+.center {
+  
+  font-size:2.15em;
+  background-color:white;
+  color:black;
+}
+
+#nav{
+  display:none;
+}
+
+#sidebar{
+  display:none;
+}
+.news{
+  display:none;
+}
+
+@media print {
+  a::after{
+    content: " (" attr(href) ") ";
+  }
+}
